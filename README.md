@@ -1,4 +1,4 @@
-# XTube Frontend Style Guide
+# Frontend Style Guide
 ## Table of Contents
 
   1. [Naming Conventions](#naming)
