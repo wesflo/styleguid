@@ -1,4 +1,4 @@
-# XTube Frontend Style Guide() {
+# XTube Frontend Style Guide
 ## Table of Contents
 
   1. [Naming Conventions](#naming)
@@ -277,4 +277,3 @@
     ```
 
 **[⬆ back to top](#table-of-contents)**
-}
