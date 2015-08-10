@@ -1,7 +1,7 @@
 # JvaScript Style Guide
 ## Table of Contents
 
-  1. [Naming Conventions](#naming)
+  1. [Naming Conventions](#naming-conventions)
   2. [Accessors](#accessors)
   3. [Events](#events)
   3. [jQuery](#jquery)
