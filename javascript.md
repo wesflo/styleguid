@@ -3,8 +3,9 @@
 
   1. [Naming Conventions](#naming-conventions)
   2. [Accessors](#accessors)
-  3. [Events](#events)
-  3. [jQuery](#jquery)
+  3. [Comparison Operators & Equality](#comparison-operators--equality)
+  4. [Events](#events)
+  5. [jQuery](#jquery)
 
 ## Naming Conventions
 - [1.1](#1.1) <a name='1.1'></a> Use camelCase when naming class or id selectors.
@@ -176,8 +177,6 @@
 
     // Do something
   }
-
-
   ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -234,9 +233,18 @@
 
 **[⬆ back to top](#table-of-contents)**
 
+
+## Comparison Operators & Equality
+
+- [3.1](#3.1) <a name='3.1'></a> Use `===` and `!==` over `==` and `!=`.
+- [3.2](#3.2) <a name='3.2'></a> For more information see [Truth Equality and JavaScript](http://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108) by Angus Croll.
+
+**[⬆ back to top](#table-of-contents)**
+
+
 ## Events
 
-- [3.1](#3.1) <a name='3.1'></a> When attaching data payloads to events (whether DOM events or something more proprietary like Backbone events), pass a hash instead of a raw value. This allows a subsequent contributor to add more data to the event payload without finding and updating every handler for the event. For example, instead of:
+- [4.1](#4.1) <a name='4.1'></a> When attaching data payloads to events (whether DOM events or something more proprietary like Backbone events), pass a hash instead of a raw value. This allows a subsequent contributor to add more data to the event payload without finding and updating every handler for the event. For example, instead of:
 
   ```javascript
   // bad
@@ -258,7 +266,7 @@
 
 ## jQuery
 
-- [4.1](#4.1) <a name='4.1'></a> Use jQuery as less as possible.
+- [5.1](#5.1) <a name='5.1'></a> Use jQuery as less as possible.
 
   ```javascript
   // bad
@@ -294,7 +302,7 @@
   }
   ```
 
-- [4.2](#4.2) <a name='4.2'></a> Prefix jQuery object variables with a `$`.
+- [5.2](#5.2) <a name='5.2'></a> Prefix jQuery object variables with a `$`.
 
   ```javascript
   // bad
@@ -304,7 +312,7 @@
   const $sidebar = $('.sidebar');
   ```
 
-- [4.3](#4.3) <a name='4.3'></a> Cache jQuery lookups.
+- [5.3](#5.3) <a name='5.3'></a> Cache jQuery lookups.
 
   ```javascript
   // bad
@@ -331,8 +339,8 @@
   }
   ```
 
-- [4.4](#4.4) <a name='4.4'></a> For DOM queries use Cascading `$('.sidebar ul')` or parent > child `$('.sidebar > ul')`. [jsPerf](http://jsperf.com/jquery-find-vs-context-sel/16)
-- [4.5](#4.5) <a name='4.5'></a> Use `find` with scoped jQuery object queries.
+- [5.4](#5.4) <a name='5.4'></a> For DOM queries use Cascading `$('.sidebar ul')` or parent > child `$('.sidebar > ul')`. [jsPerf](http://jsperf.com/jquery-find-vs-context-sel/16)
+- [5.5](#5.5) <a name='5.5'></a> Use `find` with scoped jQuery object queries.
 
   ```javascript
   // bad
