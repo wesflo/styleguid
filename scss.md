@@ -169,7 +169,7 @@
 
 - [6.1](#6.1) <a name='6.1'></a> At global styles and then go deeper.
 
-  ```css
+  ```sass
   // bad
   .style {
     .firstStyle {
@@ -209,7 +209,7 @@
 
 - [6.2](#6.2) <a name='6.2'></a> Interleaved everything.
 
-  ```css
+  ```sass
   // bad
   .style .firstStyle span.user {
     //some styles
