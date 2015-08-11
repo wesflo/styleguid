@@ -64,7 +64,7 @@
     }
     ```
 
-- [1.3](#1.3) <a name='1.3'></a> Use different selectors for css and javascript. <a href="https://github.com/wesflo/styleguide/blob/master/javascript.md#1.5">See example</a>
+- [1.3](#1.3) <a name='1.3'></a> Use different selectors for css and javascript. <a href="https://github.com/wesflo/styleguide/blob/master/guid/javascript.md#1.5">See example</a>
 
 **[⬆ back to top](#table-of-contents)**
 
