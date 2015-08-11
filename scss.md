@@ -45,7 +45,7 @@
 
 - [3.1](#3.1) <a name='3.1'></a> Don't add unit to zero.
 
-  ```css
+  ```sass
   <!-- bad -->
   .style {
     padding: 0px 5px;
@@ -59,7 +59,7 @@
 
 - [3.2](#3.2) <a name='3.2'></a> Write as short as possible.
 
-  ```css
+  ```sass
   <!-- bad -->
   .style {
     padding: 0 5px 0 5px;
@@ -83,7 +83,7 @@
 ## Variables
 
 - [4.1](#4.1) <a name='4.1'></a> Avoid duplicate values. Use variables as global as necessary and as locally as possible.
-  ```css
+  ```sass
   // bad
   .style {
     $red: #f32222;
@@ -107,7 +107,7 @@
 
 - [4.2](#4.2) <a name='4.2'></a> Used short and meaningful variable names.
 
-  ```css
+  ```sass
   // bad
   $thisIsTheHeightFromTheHeader: 60px;
   $red: #f32222;
@@ -122,7 +122,7 @@
 
 - [4.3](#4.3) <a name='4.3'></a> Shortcuts are allowed.
 
-  ```css
+  ```sass
   //Examples:
   $height: $h;
   $width: $w;
@@ -139,7 +139,7 @@
 
 - [5.1](#5.1) <a name='5.1'></a> Use mixins and function as often as possible.
 
-  ```css
+  ```sass
   // bad
   .style {
     position: absolute;
@@ -229,7 +229,7 @@
 
 - [6.3](#6.3) <a name='6.3'></a> At first declare layout styles, then color and text styles.
 
-  ```css
+  ```sass
   // bad
   .style {
     width: 50px;
