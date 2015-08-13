@@ -235,7 +235,7 @@
     }
   ```
 
-- [5.2](#5.2) <a name='5.2'></a> Interleaved everything.
+- [5.2](#5.2) <a name='5.2'></a> Nested everything.
 
   ```sass
   // bad
