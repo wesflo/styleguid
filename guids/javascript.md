@@ -1,4 +1,4 @@
-# JvaScript Style Guide
+# JavaScript Style Guide
 ## Table of Contents
 
   1. [Naming Conventions](#naming-conventions)
